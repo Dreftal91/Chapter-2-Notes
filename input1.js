@@ -1,7 +1,7 @@
 const readLine = require('readline-sync');
 
 //number 1
-    let jokequestion = readLine.question("Do you want to hear a joke?\n Yes or No: ")
+let jokequestion = readLine.question("Do you want to hear a joke?\n Yes or No: ")
 if (jokequestion=="Yes") {
     console.log("Too bad, I won't tell you!")
 }else if(jokequestion=="No") {
