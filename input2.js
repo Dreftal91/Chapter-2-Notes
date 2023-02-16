@@ -52,3 +52,50 @@ let city = readLine.question("What is your city?: ");
 let state = readLine.question("What is your state?: ");
 let zipcode = readLine.question("What is your zipcode?: ");
 console.log(`Your mailing label is\n${streetnumber+" "+streetname+" "+streettype+", "+city+", "+state+" "+zipcode}`);
+
+//number 9
+
+let number1 = Number(readLine.question("Choose a number: "));
+let number2 = Number(readLine.question("Choose another number: "));
+console.log(`${number1} divided by ${number2} is ${number1/number2} and the remainder is ${number1%number2}`);
+
+//number 10
+
+let numnum1 = Number(readLine.question("Choose a number: "));
+let numnum2 = Number(readLine.question("Choose another number: "));
+if (numnum1 > numnum2) {
+    console.log(`${numnum1} is bigger than ${numnum2}`)
+} else if (numnum1 < numnum2) {
+    console.log(`${numnum2} is bigger than ${numnum1}`)
+}
+
+//number 11
+
+let numnumnum1 = Number(readLine.question("Choose a number: "));
+let numnumnum2 = Number(readLine.question("Choose another number: "));
+if (numnumnum1 < numnumnum2) {
+    console.log(`${numnumnum1} is smaller than ${numnumnum2}`)
+} else if (numnumnum1 > numnumnum2) {
+    console.log(`${numnumnum2} is smaller than ${numnumnum1}`)
+}
+
+//number 12
+
+
+let numnumeins = Number(readLine.question("Choose a number: "));
+let numnumzwei = Number(readLine.question("Choose another number: "));
+let num12quo = numnumeins/numnumzwei
+let decimalplaces = Number(readLine.question("To how many decimal places do you want to round?: "));
+if (decimalplaces == 1) {
+    console.log(`The quotient of those two numbers is ${(num12quo).toFixed(1)}`);
+} else if (decimalplaces == 2) {
+    console.log(`The quotient of those two numbers is ${(num12quo).toFixed(2)}`);
+} else if (decimalplaces == 3) {
+    console.log(`The quotient of those two numbers is ${(num12quo).toFixed(3)}`);
+} else if (decimalplaces == 4) {
+    console.log(`The quotient of those two numbers is ${(num12quo).toFixed(4)}`);
+} else if (decimalplaces == 5) {
+    console.log(`The quotient of those two numbers is ${(num12quo).toFixed(5)}`);
+} else if (decimalplaces == 6) {
+    console.log(`The quotient of those two numbers is ${(num12quo).toFixed(6)}`);
+}
