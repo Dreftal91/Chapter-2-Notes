@@ -45,9 +45,9 @@ const readLine = require('readline-sync');
 //number 6
 
 let f = 100;
-while (f > 1){
-    if (f % 1 == 0){
+while (f >= 1){
+    if (f % 2 == 1){
         console.log(f);
     }
-    f=f-2;
+    f--;
 }
