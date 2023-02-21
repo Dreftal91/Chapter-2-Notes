@@ -32,4 +32,11 @@ const readLine = require('readline-sync');
 //         console.log(start)
 //     }
 //     start++
-// }
+//
+
+let answer = readLine.question("Enter y or n: ");
+while (answer != "y" && answer != "n" && answer != "quit"){
+    console.log("Invalid Answer.");
+    answer = readLine.question("Try again. Enter y or n:");
+}
+console.log("Rest of program");
