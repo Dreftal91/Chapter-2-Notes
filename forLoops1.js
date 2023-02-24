@@ -70,4 +70,22 @@ const readLine = require('readline-sync');
 //     }
 // }
 
-//number 12
+//number 12 (check)
+// let sum = 1;
+// for (let i = 100; i <= 200; i++){
+//     if (i % 2 == 0) {
+//         i++
+//     }
+//     sum += i;
+// }
+// console.log(sum);
+
+//number 13
+// let sum = 1;
+// for (let i = 100; i <= 200; i++){
+//     if (i % 2 == 0) {
+//         i++
+//     }
+//     sum *= i;
+// }
+// console.log(sum);
